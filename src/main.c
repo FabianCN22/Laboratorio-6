@@ -21,18 +21,18 @@ void probar_ordenamientos(void) {
     };
 
     Person personas_ordenadas[CANTIDAD_PERSONAS];
-    printf("\n=== ARREGLO ORIGINAL ===\n");
+    printf("\nARREGLO ORIGINAL\n");
     imprimir_personas(personas_originales, CANTIDAD_PERSONAS);
     copiar_personas(personas_ordenadas, personas_originales, CANTIDAD_PERSONAS);
     ordenar_personas(personas_ordenadas, CANTIDAD_PERSONAS, compare_by_name);
-    printf("\n=== ORDENADO POR NOMBRE ===\n");
+    printf("\nORDENADO POR NOMBRE\n");
     imprimir_personas(personas_ordenadas, CANTIDAD_PERSONAS);
     copiar_personas(personas_ordenadas, personas_originales, CANTIDAD_PERSONAS);
     ordenar_personas(personas_ordenadas, CANTIDAD_PERSONAS, compare_by_age);
-    printf("\n=== ORDENADO POR EDAD ===\n");
+    printf("\n ORDENADO POR EDAD \n");
     imprimir_personas(personas_ordenadas, CANTIDAD_PERSONAS);
     copiar_personas(personas_ordenadas, personas_originales, CANTIDAD_PERSONAS);
     ordenar_personas(personas_ordenadas, CANTIDAD_PERSONAS, compare_by_height);
-    printf("\n=== ORDENADO POR ALTURA ===\n");
+    printf("\n ORDENADO POR ALTURA \n");
     imprimir_personas(personas_ordenadas, CANTIDAD_PERSONAS);
 }
