@@ -4,7 +4,7 @@ CC = gcc
 CFLAGS = -Wall -Wextra -std=c11 -Iinclude
 TARGET = main.exe
 
-SRC = src/main.c
+SRC = src/main.c src/person.c
 OBJ = $(SRC:.c=.o)
 
 all: $(TARGET)
