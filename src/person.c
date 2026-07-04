@@ -44,9 +44,9 @@ int compare_by_height(const void *primer_elemento, const void *segundo_elemento)
 
 void imprimir_persona(Person persona) {
     printf("%-10s Edad: %2d Altura: %.1f cm\n",
-           persona.name,
-           persona.age,
-           persona.height);
+        persona.name,
+        persona.age,
+        persona.height);
 }
 
 void imprimir_personas(Person personas[], int cantidad_personas) {
